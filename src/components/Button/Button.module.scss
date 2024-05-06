@@ -1,0 +1,25 @@
+@import  "../../style/_vars.scss";
+
+.button {
+    width: 45%;
+    background-color: $yellowBg; 
+    font-family: $button-text;
+    font-size: $buttonFs; 
+    text-transform: uppercase;
+    color: $darkPurpleFc;
+    border: none;
+    margin: 0 auto;
+    border-radius: $bR;
+    padding: 10px 15px;
+    border: solid 1px $darkPurpleBg;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  
+    &:hover {
+      background-color: darken($yellowBg, 10%); 
+    }
+  
+    &:active {
+      transform: scale(0.98);
+    }
+  }

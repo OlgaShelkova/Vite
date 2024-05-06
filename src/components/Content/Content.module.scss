@@ -1,0 +1,19 @@
+@import  "../../style/_vars.scss";
+
+div {
+    h1 {
+        text-align: center;
+        font-family: $header-text;
+        font-weight: 400;
+        font-style: normal;
+        font-size: $headerFs;
+        color: $darkPurpleFc;
+        padding: 10px;
+    }
+    p {
+        text-align: center;
+        font-family: $table-text; 
+        font-size: 18px;
+        color: $yellowFc;
+    }
+}

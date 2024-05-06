@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/*цвет фона*/
+/*размер шрифта*/
+/*цвет шрифта*/
+/*border-radius-10*/
+/*рамки*/
+/*шрифты*/
+/*заголовки*/
+header {
+  padding: 10px;
+  background-color: #49108B;
+  color: #F8FF95;
+  font-size: 28px;
+  font-family: "Russo One", sans-serif;
+}
+header .container {
+  margin-top: 10px;
+}
+header .row {
+  margin-bottom: 10px;
+}
+header .logo {
+  margin-bottom: 20px;
+  font-size: 15px;
+  font-style: normal;
+}
+header .logo .logoImg {
+  width: 10%;
+  opacity: 0.75;
+}
+header .nav {
+  text-align: end;
+}
+header .nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-grow: 1;
+}
+header .nav ul li {
+  display: inline-block;
+}
+header .nav ul li a {
+  text-decoration: none;
+  margin-right: 20px;
+  color: #F8FF95;
+}/*# sourceMappingURL=Header.module.css.map */

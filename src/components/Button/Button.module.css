@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/*цвет фона*/
+/*размер шрифта*/
+/*цвет шрифта*/
+/*border-radius-10*/
+/*рамки*/
+/*шрифты*/
+/*заголовки*/
+.button {
+  width: 45%;
+  background-color: #F8FF95;
+  font-family: "Russo One", sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #49108B;
+  border: none;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 10px 15px;
+  border: solid 1px #49108B;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.button:hover {
+  background-color: #f5ff62;
+}
+.button:active {
+  transform: scale(0.98);
+}/*# sourceMappingURL=Button.module.css.map */

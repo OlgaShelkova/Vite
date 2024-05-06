@@ -1,0 +1,19 @@
+.header {
+  padding: 46px 0 56px;
+  background-color: #7e30e1;
+  color: #f8ff95;
+}
+
+.header__nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.header__nav ul li {
+  display: inline-block;
+}
+.header__nav ul li a {
+  text-decoration: none;
+  color: #333;
+  margin-right: 20px;
+}/*# sourceMappingURL=Header.css.map */

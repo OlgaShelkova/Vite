@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/*цвет фона*/
+/*размер шрифта*/
+/*цвет шрифта*/
+/*border-radius-10*/
+/*рамки*/
+/*шрифты*/
+/*заголовки*/
+div h1 {
+  text-align: center;
+  font-family: "Russo One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 28px;
+  color: #49108B;
+  padding: 10px;
+}
+div p {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: #F8FF95;
+}/*# sourceMappingURL=Content.module.css.map */

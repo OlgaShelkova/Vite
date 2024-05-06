@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/*цвет фона*/
+/*размер шрифта*/
+/*цвет шрифта*/
+/*border-radius-10*/
+/*рамки*/
+.button {
+  width: 20%;
+  background-color: #F8FF95;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.button:hover {
+  background-color: #f5ff62;
+}
+.button:active {
+  transform: scale(0.98);
+}/*# sourceMappingURL=Button.css.map */
