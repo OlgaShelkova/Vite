@@ -5,7 +5,6 @@
 /*border-radius-10*/
 /*рамки*/
 /*шрифты*/
-/*заголовки*/
 .button {
   width: 45%;
   background-color: #F8FF95;
@@ -15,7 +14,7 @@
   color: #49108B;
   border: none;
   margin: 0 auto;
-  border-radius: 10px;
+  border-radius: 15px;
   padding: 10px 15px;
   border: solid 1px #49108B;
   cursor: pointer;

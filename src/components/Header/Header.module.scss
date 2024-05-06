@@ -37,8 +37,15 @@ header {
           text-decoration: none;
           margin-right: 20px;
           color: $yellowFc;
+          transition: border 0.3s ease; 
+
+        &:hover {
+          border: $textBorder;
+          border-radius: $bR; 
         }
+
       }
     }
   }
+}
 }

@@ -10,8 +10,9 @@
       .conteiner {
         width: 50%;
         background-color: #D2C0EA;
-        border: 2px solid transparent;
+        border: $tableBorder;
         border-radius: $bR;
+        ;
     }
 
 }

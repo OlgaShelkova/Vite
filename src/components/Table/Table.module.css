@@ -5,7 +5,6 @@
 /*border-radius-10*/
 /*рамки*/
 /*шрифты*/
-/*заголовки*/
 .table {
   display: flex;
   justify-content: center;
@@ -17,6 +16,6 @@
 .table .conteiner {
   width: 50%;
   background-color: #D2C0EA;
-  border: 2px solid transparent;
-  border-radius: 10px;
+  border: solid 2px #F8FF95;
+  border-radius: 15px;
 }/*# sourceMappingURL=Table.module.css.map */
