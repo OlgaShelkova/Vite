@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./Table.module.scss";
 import data from "../../data";
-import TableRow from "./TableRow";
+import TableRow from "../TableRow/TableRow";
 
 export default function Table() {
   return (

@@ -20,7 +20,6 @@ const TableRow = ({ id, english, transcription, russian }) => {
 
   return (
     <tr>
-      <td>{id}</td>
       {isEditing ? (
         <>
           <td>
