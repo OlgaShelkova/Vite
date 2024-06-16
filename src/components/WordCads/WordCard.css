@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/*цвет фона*/
+/*размер шрифта*/
+/*цвет шрифта*/
+/*border-radius-15*/
+/*рамки*/
+/*шрифты*/
+.word-card-container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  padding: 30px;
+  font-size: 18px;
+}
+.word-card-container .word-card {
+  border: solid 4px #49108B;
+  border-radius: 15px;
+  padding: 150px;
+  width: 400px;
+  height: 400px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+}
+.word-card-container .word-card .word-item {
+  align-items: center;
+}
+.word-card-container .word-card .word-item h3 {
+  font-family: "Russo One", sans-serif;
+  color: #7E30E1;
+  font-size: 28px;
+  padding: 10px;
+}
+.word-card-container .word-card .word-item p {
+  font-family: "Russo One", sans-serif;
+  color: #49108B;
+  font-size: 18px;
+  padding: 10px;
+}
+.word-card-container button {
+  background-color: #E26EE5;
+  color: #49108B;
+  border: solid 1px #49108B;
+  border-radius: 15px;
+  padding: 8px 20px;
+  font-size: 14px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.word-card-container button:hover {
+  background-color: white;
+}
+.word-card-container .translation {
+  margin-top: 14px;
+}/*# sourceMappingURL=WordCard.css.map */

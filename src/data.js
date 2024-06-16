@@ -1,6 +1,6 @@
 const data = [
   {
-    id: 15759,
+    id: 1,
     english: "wind",
     transcription: "[wɪnd]",
     russian: "ветер",
@@ -8,7 +8,7 @@ const data = [
     tags_json: '[""]',
   },
   {
-    id: 15780,
+    id: 2,
     english: "first",
     transcription: "[fərst]",
     russian: "первый",
@@ -16,7 +16,7 @@ const data = [
     tags_json: '[""]',
   },
   {
-    id: 15781,
+    id: 3,
     english: "field",
     transcription: "[fi:ld]",
     russian: "поле",
@@ -24,7 +24,7 @@ const data = [
     tags_json: '[""]',
   },
   {
-    id: 15783,
+    id: 4,
     english: "story",
     transcription: "[ˈstôrē]",
     russian: "история",
@@ -32,7 +32,7 @@ const data = [
     tags_json: '[""]',
   },
   {
-    id: "15796",
+    id: 5,
     english: "orange",
     transcription: "[ˈɔːrɪndʒ]",
     russian: "апельсин",
@@ -40,7 +40,7 @@ const data = [
     tags_json: '[""]',
   },
   {
-    id: "15809",
+    id: 6,
     english: "apple",
     transcription: "[ˈæpl] ",
     russian: "яблоко",
@@ -48,7 +48,7 @@ const data = [
     tags_json: '[""]',
   },
   {
-    id: "15811",
+    id: 7,
     english: "plus",
     transcription: "[plus]",
     russian: "плюс",
@@ -56,7 +56,7 @@ const data = [
     tags_json: '[""]',
   },
   {
-    id: "15812",
+    id: 8,
     english: "tree",
     transcription: "[trii]",
     russian: "дерево",
@@ -64,7 +64,7 @@ const data = [
     tags_json: '[""]',
   },
   {
-    id: "15813",
+    id: 9,
     english: "hello",
     transcription: "[halou]",
     russian: "привет",
@@ -72,7 +72,7 @@ const data = [
     tags_json: "[]",
   },
   {
-    id: "15814",
+    id: 10,
     english: "sea",
     transcription: "[si:] ",
     russian: "море",
@@ -80,7 +80,7 @@ const data = [
     tags_json: '[""]',
   },
   {
-    id: "15815",
+    id: 11,
     english: "gray",
     transcription: "[grei]",
     russian: "серый",
@@ -88,7 +88,7 @@ const data = [
     tags_json: '[""]',
   },
   {
-    id: "15817",
+    id: 12,
     english: "love",
     transcription: "[ləv]",
     russian: "любовь",
@@ -96,7 +96,7 @@ const data = [
     tags_json: '[""]',
   },
   {
-    id: "15819",
+    id: 13,
     english: "ocean",
     transcription: "[ˈəuʃən] ",
     russian: "океан",
@@ -104,7 +104,7 @@ const data = [
     tags_json: '[""]',
   },
   {
-    id: "15823",
+    id: 14,
     english: "joke",
     transcription: "[jouk]",
     russian: "шутка",
@@ -112,7 +112,7 @@ const data = [
     tags_json: "[]",
   },
   {
-    id: "15824",
+    id: 15,
     english: "mountain",
     transcription: " [ˈmauntɪn] ",
     russian: "гора",
@@ -120,7 +120,7 @@ const data = [
     tags_json: '[""]',
   },
   {
-    id: "15825",
+    id: 16,
     english: "desert",
     transcription: "[ˈdezərt]",
     russian: "пустыня",
@@ -128,7 +128,7 @@ const data = [
     tags_json: '[""]',
   },
   {
-    id: "15826",
+    id: 17,
     english: "river",
     transcription: " [ˈrɪvə] ",
     russian: "река",
@@ -136,7 +136,7 @@ const data = [
     tags_json: '[""]',
   },
   {
-    id: "15827",
+    id: 18,
     english: "forest",
     transcription: " [ˈfɔrɪst]",
     russian: "лес",
@@ -144,7 +144,7 @@ const data = [
     tags_json: '[""]',
   },
   {
-    id: "15833",
+    id: 19,
     english: "clear",
     transcription: "[klir]",
     russian: "чистый",
@@ -152,7 +152,7 @@ const data = [
     tags_json: '[""]',
   },
   {
-    id: "15835",
+    id: 20,
     english: "word",
     transcription: "[word]",
     russian: "слово",
@@ -160,7 +160,7 @@ const data = [
     tags_json: '[""]',
   },
   {
-    id: "15849",
+    id: 21,
     english: "developer",
     transcription: "[dɪˈveləpər]",
     russian: "разработчик",
@@ -168,7 +168,7 @@ const data = [
     tags_json: '[""]',
   },
   {
-    id: "15854",
+    id: 22,
     english: "cat",
     transcription: "[kæt]",
     russian: "кот",
@@ -176,7 +176,7 @@ const data = [
     tags_json: '[""]',
   },
   {
-    id: "15855",
+    id: 23,
     english: "equipment",
     transcription: "[ɪˈkwɪpmənt]",
     russian: "оборудование",
