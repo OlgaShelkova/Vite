@@ -9,7 +9,6 @@ export default function Table() {
       <table className="container">
         <thead>
           <tr>
-            <th>Тема</th>
             <th>Английский</th>
             <th>Транскрипция</th>
             <th>Перевод</th>

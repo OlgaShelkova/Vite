@@ -14,5 +14,19 @@
     border: $tableBorder;
     border-radius: $bR;
     padding: 10px;
+    th, td {
+      text-align: center;
+      padding: 8px;
+    }
+  
+    th:nth-child(-n+3),
+    td:nth-child(-n+3) {
+      width: 20%; 
+    }
+  
+    th:nth-child(4),
+    td:nth-child(4) {
+      width: 40%; 
+    }
   }
 }

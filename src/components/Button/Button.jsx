@@ -1,10 +1,8 @@
 import "./Button.scss";
 
-export default function Button({ text, onClick }) {
+export default function Button({ text, onClick, colorClass }) {
   return (
-    <button className="button" onClick={onClick}>
-      {" "}
-      {/* Используем класс из SCSS файла */}
+    <button className={`button ${colorClass}`} onClick={onClick}>
       {text}
     </button>
   );

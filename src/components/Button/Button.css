@@ -2,20 +2,46 @@
 /*цвет фона*/
 /*размер шрифта*/
 /*цвет шрифта*/
-/*border-radius-10*/
+/*border-radius-15*/
 /*рамки*/
+/*шрифты*/
 .button {
-  width: 20%;
-  background-color: #F8FF95;
+  width: 45%;
+  font-family: "Russo One", sans-serif;
   font-size: 14px;
+  text-transform: uppercase;
+  color: #49108B;
   border: none;
-  border-radius: 5px;
+  margin: 0 auto;
+  border-radius: 15px;
   padding: 10px 15px;
+  border: solid 1px #49108B;
   cursor: pointer;
   transition: background-color 0.3s;
 }
-.button:hover {
+.button.yellow-button {
+  background-color: #F8FF95;
+}
+.button.yellow-button:hover {
   background-color: #f5ff62;
+}
+.button.pink-button {
+  background-color: #E26EE5;
+}
+.button.pink-button:hover {
+  background-color: #d943dd;
+}
+.button.green-button {
+  background-color: #F8FF95;
+}
+.button.green-button:hover {
+  background-color: #7ad175;
+}
+.button.red-button {
+  background-color: #E26EE5;
+}
+.button.red-button:hover {
+  background-color: #d76a7a;
 }
 .button:active {
   transform: scale(0.98);

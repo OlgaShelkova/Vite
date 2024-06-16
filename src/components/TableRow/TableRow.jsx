@@ -68,8 +68,16 @@ const TableRow = ({ id, english, transcription, russian }) => {
             />
           </td>
           <td>
-            <Button text="Сохранить" onClick={handleSave} />
-            <Button text="Отмена" onClick={handleCancel} />
+            <Button
+              text="Сохранить"
+              onClick={handleSave}
+              colorClass="green-button"
+            />
+            <Button
+              text="Отмена"
+              onClick={handleCancel}
+              colorClass="red-button"
+            />
           </td>
         </>
       ) : (
@@ -79,8 +87,12 @@ const TableRow = ({ id, english, transcription, russian }) => {
           <td>{transcription}</td>
           <td>{russian}</td>
           <td>
-            <Button text="Редактировать" onClick={handleEdit} />
-            <Button text="Удалить" />
+            <Button
+              text="Редактировать"
+              onClick={handleEdit}
+              colorClass="yellow-button"
+            />
+            <Button text="Удалить" colorClass="pink-button" />
           </td>
         </>
       )}

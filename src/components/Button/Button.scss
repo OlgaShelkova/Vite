@@ -1,25 +1,50 @@
-@import  "../../style/_vars.scss";
+@import "../../style/_vars.scss";
 
 .button {
-    width: 45%;
-    background-color: $yellowBg; 
-    font-family: $button-text;
-    font-size: $buttonFs; 
-    text-transform: uppercase;
-    color: $darkPurpleFc;
-    border: none;
-    margin: 0 auto;
-    border-radius: $bR;
-    padding: 10px 15px;
-    border: solid 1px $darkPurpleBg;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  
+  width: 45%;
+  font-family: $button-text;
+  font-size: $buttonFs;
+  text-transform: uppercase;
+  color: $darkPurpleFc;
+  border: none;
+  margin: 0 auto;
+  border-radius: $bR;
+  padding: 10px 15px;
+  border: solid 1px $darkPurpleBg;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+  &.yellow-button {
+    background-color: $yellowBg;
+
     &:hover {
-      background-color: darken($yellowBg, 10%); 
-    }
-  
-    &:active {
-      transform: scale(0.98);
+      background-color: darken($yellowBg, 10%);
     }
   }
+
+  &.pink-button {
+    background-color: $pinkBg;
+
+    &:hover {
+      background-color: darken($pinkBg, 10%);
+    }
+  }
+  &.green-button {
+    background-color: $yellowBg;
+
+    &:hover {
+      background-color: darken(#9fde9b, 10%);
+    }
+  }
+    &.red-button {
+      background-color: $pinkBg;
+  
+      &:hover {
+        background-color: darken(#e2929e, 10%);
+      }
+    }
+  &:active {
+    transform: scale(0.98);
+  }
+}
+
