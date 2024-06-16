@@ -32,16 +32,16 @@
   background-color: #d943dd;
 }
 .button.green-button {
-  background-color: #F8FF95;
+  background-color: #67E667;
 }
 .button.green-button:hover {
-  background-color: #7ad175;
+  background-color: #3bdf3b;
 }
 .button.red-button {
-  background-color: #E26EE5;
+  background-color: #FF7373;
 }
 .button.red-button:hover {
-  background-color: #d76a7a;
+  background-color: #ff4040;
 }
 .button:active {
   transform: scale(0.98);

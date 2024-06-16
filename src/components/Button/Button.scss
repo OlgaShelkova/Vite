@@ -30,17 +30,18 @@
     }
   }
   &.green-button {
-    background-color: $yellowBg;
+    background-color: #67E667
+  ;
 
     &:hover {
-      background-color: darken(#9fde9b, 10%);
+      background-color: darken(#67E667, 10%);
     }
   }
     &.red-button {
-      background-color: $pinkBg;
+      background-color: #FF7373;
   
       &:hover {
-        background-color: darken(#e2929e, 10%);
+        background-color: darken(#FF7373, 10%);
       }
     }
   &:active {
