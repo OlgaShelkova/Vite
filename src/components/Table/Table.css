@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/*цвет фона*/
+/*размер шрифта*/
+/*цвет шрифта*/
+/*border-radius-15*/
+/*рамки*/
+/*шрифты*/
+.table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #49108B;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+}
+.table .container {
+  width: 60%;
+  background-color: #D2C0EA;
+  border: solid 2px #F8FF95;
+  border-radius: 15px;
+  padding: 10px;
+}/*# sourceMappingURL=Table.css.map */

@@ -1,8 +1,10 @@
-import style from "./Button.module.scss";
+import "./Button.scss";
 
 export default function Button({ text, onClick }) {
   return (
-    <button className={style.button} onClick={onClick}>
+    <button className="button" onClick={onClick}>
+      {" "}
+      {/* Используем класс из SCSS файла */}
       {text}
     </button>
   );

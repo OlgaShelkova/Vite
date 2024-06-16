@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Table from "../Table/Table";
 import WordCard from "../WordCads/WordCard.jsx";
-import "./Content.module.scss";
+import "./Content.scss";
 
 const Content = () => {
   const minWordId = 1;

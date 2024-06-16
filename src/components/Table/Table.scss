@@ -1,0 +1,18 @@
+@import  "../../style/_vars.scss";
+
+.table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $darkPurpleFc;
+  font-size: $tableFs;
+  font-family: $table-text;
+  
+  .container {
+    width: 60%;
+    background-color: #D2C0EA;
+    border: $tableBorder;
+    border-radius: $bR;
+    padding: 10px;
+  }
+}
