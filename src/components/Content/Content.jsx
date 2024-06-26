@@ -1,13 +1,12 @@
 import React, { useState } from "react";
 import Table from "../Table/Table";
 import WordCard from "../WordCads/WordCard.jsx";
+import data from "../../data";
 import "./Content.scss";
 
-const Content = () => {
-  const minWordId = 1;
-  const maxWordId = 23;
-  const randomWordId =
-    Math.floor(Math.random() * (maxWordId - minWordId + 1)) + minWordId;
+const Content = ({ initialIndex }) => {
+  const [currentIndex, setCurrentIndex] = useState(initialIndex || 0);
+  const word = data[currentIndex] || data[0];
 
   return (
     <>
@@ -18,7 +17,7 @@ const Content = () => {
 
       <h1>ИГРА:</h1>
       <p>Познакомьтесь с новым словом:</p>
-      <WordCard wordId={randomWordId} />
+      <WordCard word={word} />
     </>
   );
 };
