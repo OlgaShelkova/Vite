@@ -83,9 +83,10 @@ const TableRow = ({ id, english, transcription, russian }) => {
       ) : (
         // Если не в режиме редактирования
         <>
-          <td>{english}</td>
-          <td>{transcription}</td>
-          <td>{russian}</td>
+          <td>{editedEnglish}</td>
+          <td>{editedTranscription}</td>
+          <td>{editedRussian}</td>
+
           <td>
             <Button
               text="Редактировать"
