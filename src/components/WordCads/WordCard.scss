@@ -1,12 +1,15 @@
-@import  "../../style/_vars.scss";
+@import "../../style/_vars.scss";
+
 .word-card-container {
   display: flex;
   justify-content: center;
+  align-items: center;
   height: 100vh;
   padding: 30px;
   font-size: $textFs;
 
   .word-card {
+    position: relative;
     border: solid 4px $darkPurpleBg;
     border-radius: $bR;
     padding: 150px;
@@ -15,22 +18,26 @@
     background-color: #f9f9f9;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     display: flex;
+    flex-direction: column;
+    align-items: center;
 
     .word-item {
       align-items: center;
+      
       h3 {
-        font-family: $header-text; 
+        font-family: $header-text;
         color: $purpleFc;
         font-size: $headerFs;
         padding: 10px;
       }
+
       p {
         font-family: $header-text; 
         color: $darkPurpleFc;
         font-size: $textFs;
         padding: 10px;
       }
-      }
+    }
   }
 
   button {
@@ -44,6 +51,28 @@
     cursor: pointer;
     transition: background-color 0.3s ease;
     
+    &:hover {
+      background-color: white;
+    }
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    width: 400px;
+  }
+
+  .prev-button, .next-button {
+    background-color: $pinkBg;
+    color: $darkPurpleFc;
+    border: solid 1px $darkPurpleBg;
+    border-radius: $bR;
+    padding: 8px 20px;
+    font-size: $buttonFs;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
     &:hover {
       background-color: white;
     }
