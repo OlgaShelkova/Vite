@@ -8,11 +8,13 @@
 .word-card-container {
   display: flex;
   justify-content: center;
+  align-items: center;
   height: 100vh;
   padding: 30px;
   font-size: 18px;
 }
 .word-card-container .word-card {
+  position: relative;
   border: solid 4px #49108B;
   border-radius: 15px;
   padding: 150px;
@@ -21,6 +23,8 @@
   background-color: #f9f9f9;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .word-card-container .word-card .word-item {
   align-items: center;
@@ -49,6 +53,25 @@
   transition: background-color 0.3s ease;
 }
 .word-card-container button:hover {
+  background-color: white;
+}
+.word-card-container .button-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  width: 400px;
+}
+.word-card-container .prev-button, .word-card-container .next-button {
+  background-color: #E26EE5;
+  color: #49108B;
+  border: solid 1px #49108B;
+  border-radius: 15px;
+  padding: 8px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.word-card-container .prev-button:hover, .word-card-container .next-button:hover {
   background-color: white;
 }
 .word-card-container .translation {
