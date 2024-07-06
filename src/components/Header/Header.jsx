@@ -1,5 +1,6 @@
 import logoImg from "../../assets/img/logo.jpg";
-import style from "./Header.module.scss";
+import style from "./Header.scss";
+import { NavLink } from "react-router-dom";
 
 export default function Header() {
   return (
@@ -7,21 +8,21 @@ export default function Header() {
       <div className={style.container}>
         <div className={style.row}>
           <div className={style.logo}>
-            <img className={style.logoImg} src={logoImg} alt="Logo" />
+            <NavLink to="/">
+              <img className={style.logoImg} src={logoImg} alt="Logo" />
+            </NavLink>
             <span> ШАГ ЗА ШАГОМ К СВОБОДНОМУ ОБЩЕНИЮ на английском!</span>
           </div>
           <nav className={style.nav}>
             <ul>
               <li>
-                <a href="#!">Главная</a>
+                <NavLink to="/">Главная</NavLink>
               </li>
               <li>
-                <a href="#!">Игра</a>
+                <NavLink to="/game">Игра</NavLink>
               </li>
               <li>
-                <a href="#!" className="header__nav-btn">
-                  Регистрация
-                </a>
+                <NavLink to="/table">Таблица</NavLink>
               </li>
             </ul>
           </nav>

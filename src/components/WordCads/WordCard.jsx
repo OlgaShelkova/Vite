@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import data from "../../data";
-import "./WordCard.css";
+import styles from "./WordCard.css";
 
 const WordCard = () => {
   // Создаем состояние для текущего индекса слова
@@ -36,14 +36,14 @@ const WordCard = () => {
     );
   }
   return (
-    <div className="word-card-container">
-      <div className="button-container">
-        <button onClick={handlePrevCard} className="prev-button">
+    <div className={styles.word - card - container}>
+      <div className={styles.button - container}>
+        <button onClick={handlePrevCard} className={styles.prev - button}>
           Назад
         </button>
       </div>
       <div className="word-card">
-        <div key={currentWord.id} className="word-item">
+        <div key={currentWord.id} className={styles.word - item}>
           <h3>{currentWord.english}</h3>
           <p>{currentWord.transcription}</p>
           {buttonVisible && (
@@ -52,7 +52,7 @@ const WordCard = () => {
           {showTranslation && <p>{currentWord.russian}</p>}
         </div>
       </div>
-      <div className="button-container">
+      <div className={styles.button - container}>
         <button onClick={handleNextCard} className="next-button">
           Вперед
         </button>

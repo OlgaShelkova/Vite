@@ -1,12 +1,26 @@
 import "./style/App.scss";
-import Header from "./components/Header/Header";
-import Content from "./components/Content/Content";
+import { Home, Game, Table, Error } from "./Pages";
+import { Header, Content, Footer } from "./components";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Content />
+      <header>
+        <Header />
+      </header>
+      <main>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/game" element={<Game />} />
+          <Route path="/table" element={<Table />} />
+          <Route path="*" element={<Error />} />
+        </Routes>
+        <Content />
+      </main>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }
