@@ -1,6 +1,6 @@
-import Home from './Home';
-import Gamme from './Gamme';
-import Table from './Table';
-import Error from './Error';
+import Home from './Home/Home';
+import Game from './Game/Game';
+import Table from './Table/Table';
+import Error from './Error/Error';
 
-export { Home, Gamme, Table, Error };
+export { Home, Game, Table, Error };

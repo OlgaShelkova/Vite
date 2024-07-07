@@ -1,5 +1,13 @@
+import mainImg from "../../assets/img/lion-in-suit.jpg";
 import style from "./Home.scss";
 
 export default function Home() {
-  return <div>Главная</div>;
+  return (
+    <>
+      <div className={style.main}>
+        <img className={style.mainImg} src={mainImg} alt="lion-in-suit" />
+        <div className={style.text}>Главная</div>
+      </div>
+    </>
+  );
 }

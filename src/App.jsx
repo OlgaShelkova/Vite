@@ -1,6 +1,7 @@
 import "./style/App.scss";
 import { Home, Game, Table, Error } from "./Pages";
-import { Header, Content, Footer } from "./components";
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
 import { Route, Routes } from "react-router-dom";
 
 function App() {
@@ -16,7 +17,6 @@ function App() {
           <Route path="/table" element={<Table />} />
           <Route path="*" element={<Error />} />
         </Routes>
-        <Content />
       </main>
       <footer>
         <Footer />
